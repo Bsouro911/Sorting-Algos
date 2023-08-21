@@ -1,6 +1,6 @@
 # Sorting-Alogos
 
-## Merge sort
+## 1. Merge sort
 #### Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
 
 ### Complexity of merge sort
@@ -17,7 +17,7 @@
 - Not in-place: Merge sort is not an in-place sorting algorithm, which means it requires additional memory to store the sorted data. This can be a disadvantage in applications where memory usage is a concern.
 - Not always optimal for small datasets: For small datasets, Merge sort has a higher time complexity than some other sorting algorithms, such as insertion sort. This can result in slower performance for very small datasets.
 
-## Quick sort
+## 2. Quick sort
 #### QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 ### Complexity of merge sort

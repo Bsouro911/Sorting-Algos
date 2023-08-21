@@ -1,1 +1,4 @@
 # Sorting-Alogos
+
+## Merge sort
+- 

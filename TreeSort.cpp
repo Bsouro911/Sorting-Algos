@@ -17,6 +17,14 @@ struct Node *newNode(int item)
     return temp;
 }
 
+struct Node *newNode(int item)
+{
+    struct Node *temp = new Node;
+    temp->key = item;
+    temp->left = temp->right = NULL;
+    return temp;
+}
+
 void storeSorted(Node *root, int arr[], int &i)
 {
     if (root != NULL)
